@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:text="@string/regUsuario" />
+
+    <EditText
+        android:id="@+id/campoId"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:importantForAutofill="no"
+        android:hint="@string/id"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/campoNombre"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:importantForAutofill="no"
+        android:hint="@string/nom"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/campoTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:importantForAutofill="no"
+        android:hint="@string/tel"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/regUsuarios"
+        android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>

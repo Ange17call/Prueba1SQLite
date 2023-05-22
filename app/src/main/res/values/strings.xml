@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Prueba1SQLite</string>
+    <string name="regUsuarios">Registrar Usuarios</string>
+    <string name="regUsuario">REGISTRO DE USUARIOS</string>
+    <string name="id">id</string>
+    <string name="nom">Nombre</string>
+    <string name="tel">Telefono</string>
+</resources>
